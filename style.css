@@ -1,9 +1,37 @@
 body {
-    background-color: #2C0735;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+    background-color: white;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+img {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  font-size: 50pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 30pt;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+}
